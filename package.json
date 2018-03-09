@@ -7,9 +7,16 @@
     "name": "damujiangr",
     "email": "damujiangr@aliyun.com"
   },
-  "files": ["generators"],
+  "files": [
+    "generators"
+  ],
   "main": "generators/index.js",
-  "keywords": ["react", "component", "react-component", "yeoman-generator"],
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "yeoman-generator"
+  ],
   "devDependencies": {
     "coveralls": "^2.13.1",
     "eslint": "^4.1.0",
@@ -46,11 +53,20 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"],
-    "*.json": ["prettier --write", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "eslintConfig": {
-    "extends": ["airbnb", "prettier"],
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
     "env": {
       "jest": true,
       "node": true
@@ -64,7 +80,9 @@
         }
       ]
     },
-    "plugins": ["prettier"]
+    "plugins": [
+      "prettier"
+    ]
   },
   "repository": {
     "type": "git",
