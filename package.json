@@ -2,7 +2,7 @@
   "name": "generator-react-component-magic",
   "version": "0.0.2",
   "description": "generator for react component of 58-magic",
-  "homepage": "https://github.com/58-magic/react-component-template",
+  "homepage": "https://github.com/58-magic/generator-react-component-magic",
   "author": {
     "name": "damujiangr",
     "email": "damujiangr@aliyun.com"
@@ -82,7 +82,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/damujiangr/generator-react-component-magic"
+    "url": "https://github.com/58-magic/generator-react-component-magic"
   },
   "license": "MIT"
 }
