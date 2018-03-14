@@ -30,15 +30,17 @@
     "jest": "^22.0.6",
     "lint-staged": "^4.2.1",
     "nsp": "^2.6.3",
-    "prettier": "^1.7.0",
+    "prettier": "^1.11.1",
     "yeoman-assert": "^3.1.0",
     "yeoman-test": "^1.7.0"
   },
   "dependencies": {
     "chalk": "^2.1.0",
     "download-git-repo": "^1.0.2",
+    "format-json": "^1.0.3",
     "fs-extra": "^5.0.0",
     "init-package-json": "^1.10.3",
+    "replace-in-file": "^3.2.0",
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
