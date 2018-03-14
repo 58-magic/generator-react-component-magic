@@ -130,7 +130,7 @@ module.exports = class extends Generator {
         path.join(process.cwd(), 'rollup.config.js'),
         path.join(process.cwd(), 'examples/src/app.js')
       ],
-      from: defaultComponentName,
+      from: new RegExp(defaultComponentName, 'g'),
       to: newComponentName
     };
     // replaceInFile(options);
@@ -138,7 +138,7 @@ module.exports = class extends Generator {
 
     const opt2 = {
       files: path.join(process.cwd(), 'rollup.config.js'),
-      from: defaultGlobalComponentName,
+      from: new RegExp(defaultGlobalComponentName, 'g'),
       to: newGlobalComponentName
     };
     replaceInFile.sync(opt2);
